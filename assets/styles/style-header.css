@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.black-bg{
+    background: black;
+    color: white;
+}
+
+.header .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.header .fab{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.header .header-top img.logo{
+    width: 30%;
+}
+
+.header .header-top .search span{
+    font-size: 0.5em;
+    font-weight: 800;
+    margin: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.header .header-top .search img{
+    width: 25px;
+}
+
+.header .header-menu{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 50px;
+}
+
+.header .header-menu a{    
+    text-decoration: none;
+    color: #bbb4b4;
+    margin: 20px;
+}
+
+.latest {
+    display: flex; 
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.latest .info button{
+    margin-bottom: 15px;
+}
+
+.latest .info h2{
+    margin-bottom: 30px;
+}
+
+.latest .latest-info button{
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.latest .latest-left{
+   width: 60%;  
+   background: linear-gradient(rgba(66, 60, 60, 0.5), rgba(41, 39, 39, 0.5)), url("../images/guitarman-400.jpg") no-repeat center;
+}
+
+.latest .latest-left .info{
+    width: 80%;
+    position: relative;
+    top: 65%;
+    left: 30px;
+    opacity: 1;
+}
+
+.latest .latest-left button{
+    background: #00B4EE;
+}
+
+.latest .latest-left h2{
+    text-transform: capitalize;
+}
+
+.latest .latest-info .upload-info{
+    display: flex;
+}
+
+.latest .latest-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.latest .latest-info .author{
+    align-self: center;
+    margin-left: 10px;
+    color: #d8d3d3;
+}
+
+.latest .latest-right{
+    width: 40%;
+}
+
+.latest .latest-right .info {    
+    width: 80%;
+    position: relative;
+    top: 40%;
+    left: 30px;
+}
+
+.latest .latest-right .latest-top{
+    height: 300px;
+    background: linear-gradient(rgba(66, 60, 60, 0.5), rgba(41, 39, 39, 0.5)), url("../images/featured-watch.jpg") no-repeat center;
+}
+
+.latest .latest-right .latest-bottom{
+    height: 300px;
+    background: linear-gradient(rgba(66, 60, 60, 0.5), rgba(41, 39, 39, 0.5)), url("../images/beetle-400.jpg") no-repeat center;
+}
+
+.latest .latest-right button{
+    background: rgb(12, 167, 12);
+}
+
